@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,900;1,400&display=swap');
+
+:root{
+    --white:hsl(0, 0%, 100%);
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: url('images/pattern-background-desktop.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: var(--pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+main{
+    max-width: 400px;
+    background-color: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 5px 30px var(--desaturated-blue);
+    padding-bottom: 1rem;
+}
+
+main .img-container{
+    margin-bottom: .5rem;
+}
+
+main .text{
+    padding: 0 1.5rem;
+}
+
+main .text .title{
+    color: var(--dark-blue);
+    margin-bottom: 0.75rem;
+}
+
+main .text .para{
+    color: var(--desaturated-blue);
+    font-weight: 500;
+    margin-bottom: .75rem;
+}
+
+main .text .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    padding: .75rem;
+    border-radius: 10px;
+    margin-bottom: .75rem;
+}
+
+main .text .container .img-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+main .text .container .img-plan .plan h3{
+    color: var(--dark-blue);
+}
+main .text .container .img-plan .plan p{
+    color: var(--desaturated-blue);
+}
+
+main .text .container a{
+    color: var(--bright-blue);
+    font-weight: 700;
+}
+
+main .text .container a:hover{
+    color: var(--desaturated-blue);
+    text-decoration: none;
+}
+
+main .proceed,
+main .cancel{
+    width: 60%;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0.5rem auto;
+    display: block;
+}
+
+main .proceed{
+    background-color: var(--bright-blue);
+    color: var(--white);
+}
+
+main .proceed:hover{
+    opacity: .8;
+}
+
+main .cancel{
+    color: var(--desaturated-blue);
+    background: transparent;
+}
+
+main .cancel:hover{
+    color: var(--dark-blue);
+}
+
+footer{
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--desaturated-blue);
+}
+
+footer a{
+    color: var(--dark-blue);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer a:hover{
+    color: var(--bright-blue);
+}
+
+@media screen and (max-width:686px) {
+    body{
+        background: url('images/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100% 50%;
+        background-color: var(--pale-blue);
+        padding: 1rem;
+    }
+
+    main{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

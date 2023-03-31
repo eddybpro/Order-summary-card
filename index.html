@@ -8,30 +8,39 @@
   
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- CSS LINK-->
+  <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
+  <main>
+    <section class="img-container">
+      <img src="images/illustration-hero.svg" alt="hero-img">
+    </section>
+    <section class="text">
+      <h1 class="title">Order Summary</h1>
+      <p class="para">You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+        <div class="container">
+          <div class="img-plan">
+            <img src="images/icon-music.svg" alt="music-icon">
+            <div class="plan">
+              <h3 class="plan-title">Annual Plan</h3>
+              <p class="paln-text">$59.99/year</p>
+            </div>
+          </div>
+          <a href="#">Change</a>
+        </div>
+        <button class="proceed">Proceed to Payment</button>
+        <button class="cancel">Cancel Order</button>
+    </section>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/eddybpro">Eddybpro</a>.
+    </p>
+  </footer>
 </body>
 </html>
